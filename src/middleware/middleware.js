@@ -17,7 +17,6 @@ module.exports = function(router) {
     filterResourcejsResponse: require('./filterResourcejsResponse')(router),
     filterProtectedFields: require('./filterProtectedFields')(router),
     formLoader: require('./formLoader')(router),
-    getMongoCollection: require('./getMongoCollection')(router),
     deleteActionHandler: require('./deleteActionHandler')(router),
     deleteFormHandler: require('./deleteFormHandler')(router),
     deleteRoleHandler: require('./deleteRoleHandler')(router),
